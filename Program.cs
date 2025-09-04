@@ -6,7 +6,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Register our custom services
-builder.Services.AddSingleton<ArrestedAPI.Services.IProductService, ArrestedAPI.Services.ProductService>();
+builder.Services.AddSingleton<ArrestedAPI.Services.IQuotationService, ArrestedAPI.Services.QuotationService>();
 
 var app = builder.Build();
 

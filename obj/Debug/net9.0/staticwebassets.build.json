@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "01js+2P4OWYk7iyg10m3at5fEifsQClZI4BgaUDHJL0=",
+  "Hash": "Typn2zU/eKrQZ1UAyLpXgGUS9Is5pNkUh+gE3qO9ccQ=",
   "Source": "ArrestedAPI",
   "BasePath": "_content/ArrestedAPI",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-f9r7ahc6cu.gz",
+      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-5dvk3j2a04.gz",
       "SourceId": "ArrestedAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ArrestedAPI",
-      "RelativePath": "index#[.{fingerprint=f9r7ahc6cu}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=5dvk3j2a04}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "egndsxl8go",
-      "Integrity": "Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI=",
+      "Fingerprint": "ejmq9hjnae",
+      "Integrity": "mnEm8LJ9RpIbQ4L7X6sLvMn14nfMN1WbnCo9wPdyPTQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f9r7ahc6cu",
-      "Integrity": "w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4=",
+      "Fingerprint": "5dvk3j2a04",
+      "Integrity": "yYryMgjdfygucT6k1pYZoaOXq7rjKtWfe+2IVkBya4A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -61,13 +61,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "index.f9r7ahc6cu.html",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-f9r7ahc6cu.gz",
+      "Route": "index.5dvk3j2a04.html",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-5dvk3j2a04.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000601322910"
+          "Quality": "0.002314814815"
         }
       ],
       "ResponseHeaders": [
@@ -77,15 +77,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1662"
+          "Value": "431"
         },
         {
           "Name": "ETag",
-          "Value": "\"Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI=\""
+          "Value": "\"mnEm8LJ9RpIbQ4L7X6sLvMn14nfMN1WbnCo9wPdyPTQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+          "Value": "Thu, 04 Sep 2025 21:15:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -105,13 +105,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4=\""
+          "Value": "W/\"yYryMgjdfygucT6k1pYZoaOXq7rjKtWfe+2IVkBya4A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f9r7ahc6cu"
+          "Value": "5dvk3j2a04"
         },
         {
           "Name": "label",
@@ -119,12 +119,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4="
+          "Value": "sha256-yYryMgjdfygucT6k1pYZoaOXq7rjKtWfe+2IVkBya4A="
         }
       ]
     },
     {
-      "Route": "index.f9r7ahc6cu.html",
+      "Route": "index.5dvk3j2a04.html",
       "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -134,7 +134,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4868"
+          "Value": "652"
         },
         {
           "Name": "Content-Type",
@@ -142,11 +142,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4=\""
+          "Value": "\"yYryMgjdfygucT6k1pYZoaOXq7rjKtWfe+2IVkBya4A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+          "Value": "Thu, 04 Sep 2025 21:15:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -156,7 +156,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f9r7ahc6cu"
+          "Value": "5dvk3j2a04"
         },
         {
           "Name": "label",
@@ -164,13 +164,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4="
+          "Value": "sha256-yYryMgjdfygucT6k1pYZoaOXq7rjKtWfe+2IVkBya4A="
         }
       ]
     },
     {
-      "Route": "index.f9r7ahc6cu.html.gz",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-f9r7ahc6cu.gz",
+      "Route": "index.5dvk3j2a04.html.gz",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-5dvk3j2a04.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -179,7 +179,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1662"
+          "Value": "431"
         },
         {
           "Name": "Content-Type",
@@ -187,11 +187,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI=\""
+          "Value": "\"mnEm8LJ9RpIbQ4L7X6sLvMn14nfMN1WbnCo9wPdyPTQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+          "Value": "Thu, 04 Sep 2025 21:15:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -209,7 +209,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f9r7ahc6cu"
+          "Value": "5dvk3j2a04"
         },
         {
           "Name": "label",
@@ -217,18 +217,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI="
+          "Value": "sha256-mnEm8LJ9RpIbQ4L7X6sLvMn14nfMN1WbnCo9wPdyPTQ="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-f9r7ahc6cu.gz",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-5dvk3j2a04.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000601322910"
+          "Quality": "0.002314814815"
         }
       ],
       "ResponseHeaders": [
@@ -238,15 +238,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1662"
+          "Value": "431"
         },
         {
           "Name": "ETag",
-          "Value": "\"Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI=\""
+          "Value": "\"mnEm8LJ9RpIbQ4L7X6sLvMn14nfMN1WbnCo9wPdyPTQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+          "Value": "Thu, 04 Sep 2025 21:15:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -266,13 +266,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4=\""
+          "Value": "W/\"yYryMgjdfygucT6k1pYZoaOXq7rjKtWfe+2IVkBya4A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4="
+          "Value": "sha256-yYryMgjdfygucT6k1pYZoaOXq7rjKtWfe+2IVkBya4A="
         }
       ]
     },
@@ -287,7 +287,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4868"
+          "Value": "652"
         },
         {
           "Name": "Content-Type",
@@ -295,11 +295,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4=\""
+          "Value": "\"yYryMgjdfygucT6k1pYZoaOXq7rjKtWfe+2IVkBya4A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+          "Value": "Thu, 04 Sep 2025 21:15:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -309,13 +309,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4="
+          "Value": "sha256-yYryMgjdfygucT6k1pYZoaOXq7rjKtWfe+2IVkBya4A="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-f9r7ahc6cu.gz",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-5dvk3j2a04.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -324,7 +324,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1662"
+          "Value": "431"
         },
         {
           "Name": "Content-Type",
@@ -332,11 +332,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI=\""
+          "Value": "\"mnEm8LJ9RpIbQ4L7X6sLvMn14nfMN1WbnCo9wPdyPTQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+          "Value": "Thu, 04 Sep 2025 21:15:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -354,7 +354,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI="
+          "Value": "sha256-mnEm8LJ9RpIbQ4L7X6sLvMn14nfMN1WbnCo9wPdyPTQ="
         }
       ]
     }

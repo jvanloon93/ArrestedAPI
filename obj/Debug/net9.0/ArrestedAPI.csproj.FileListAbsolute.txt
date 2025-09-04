@@ -35,4 +35,5 @@ C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\ArrestedAPI.staticweba
 C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\compressed\o0y8qpi8eh-f9r7ahc6cu.gz
+C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\ArrestedAPI.sourcelink.json
+C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\compressed\o0y8qpi8eh-5dvk3j2a04.gz
