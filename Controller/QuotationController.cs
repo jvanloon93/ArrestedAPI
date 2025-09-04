@@ -18,18 +18,18 @@ public class QuotationController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Quotation>>> GetQuotations()
     {
-        var products = await _quotationService.GetAllAsync();
-        return Ok(products);
+        var quotations = await _quotationService.GetAllAsync();
+        return Ok(quotations);
     }
 
     [HttpGet("{id}")]
     public async Task<ActionResult<Quotation>> GetProduct(int id)
     {
-        var product = await _quotationService.GetByIdAsync(id);
-        if (product == null)
+        var quotation = await _quotationService.GetByIdAsync(id);
+        if (quotation == null)
         {
             return NotFound();
         }
-        return Ok(product);
+        return Ok(quotation);
     }
 }

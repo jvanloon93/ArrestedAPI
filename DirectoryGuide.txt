@@ -1,0 +1,28 @@
+﻿Your Project:
+/home/user/MyApiWebsite/
+├── MyApiWebsite.csproj
+├── Program.cs
+├── Controllers/
+├── Models/
+├── Services/
+├── wwwroot/
+│   └── index.html
+└── setup-nginx.sh
+
+nginx Configuration:
+/etc/nginx/
+├── nginx.conf
+├── sites-available/
+│   └── myapi.conf          # Your nginx config file goes here
+└── sites-enabled/
+    └── myapi.conf -> /etc/nginx/sites-available/myapi.conf
+
+Systemd Service:
+/etc/systemd/system/
+└── myapiwebsite.service    # Your .NET service file goes here
+
+Application Deployment:
+/var/www/myapiwebsite/      # Your published .NET app goes here
+├── MyApiWebsite.dll
+├── wwwroot/
+└── ...
