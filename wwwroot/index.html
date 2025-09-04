@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My API Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      max-width: 600px;
+      margin: 2rem;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+    }
+
+    p {
+      color: #666;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .api-section {
+      background: #f8f9fa;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin: 2rem 0;
+    }
+
+    .api-endpoint {
+      background: #e9ecef;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-family: 'Courier New', monospace;
+      color: #495057;
+      margin: 0.5rem 0;
+    }
+
+    .button {
+      display: inline-block;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      margin: 0.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    #weather-result {
+      margin-top: 1rem;
+      padding: 1rem;
+      background: #d4edda;
+      border-radius: 5px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>🚀 My API Website</h1>
+  <p>Welcome to my .NET Core API website! This is a simple landing page that demonstrates a web API running on Linux with nginx.</p>
+
+  <div class="api-section">
+    <h3>API Endpoints</h3>
+    <div class="api-endpoint">GET /api/Products</div>
+    <div class="api-endpoint">POST /api/Products</div>
+    <div class="api-endpoint">GET /api/WeatherForecast</div>
+    <div class="api-endpoint">GET /swagger</div>
+  </div>
+
+  <a href="/swagger" class="button">📚 API Documentation</a>
+  <button onclick="testWeatherApi()" class="button">🌤️ Test Weather API</button>
+  <button onclick="testProductsApi()" class="button">📦 Test Products API</button>
+  <button onclick="addProduct()" class="button">➕ Add Product</button>
+
+  <div id="weather-result"></div>
+
+  <p style="margin-top: 2rem; font-size: 0.9rem; color: #999;">
+    Built with .NET Core • Served by nginx • Running on Linux
+  </p>
+</div>
+
+<script>
+  async function testWeatherApi() {
+    await testApi('/api/WeatherForecast', 'Weather Forecast Data');
+  }
+
+  async function testProductsApi() {
+    await testApi('/api/Products', 'Products Data');
+  }
+
+  async function testApi(endpoint, title) {
+    try {
+      const response = await fetch(endpoint);
+      const data = await response.json();
+
+      const resultDiv = document.getElementById('weather-result');
+      resultDiv.innerHTML = `
+                    <h4>${title}:</h4>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+      resultDiv.style.display = 'block';
+    } catch (error) {
+      const resultDiv = document.getElementById('weather-result');
+      resultDiv.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+      resultDiv.style.display = 'block';
+    }
+  }
+
+  async function addProduct() {
+    const newProduct = {
+      name: `Test Product ${Date.now()}`,
+      description: 'A test product created from the web interface',
+      price: Math.floor(Math.random() * 100) + 10
+    };
+
+    try {
+      const response = await fetch('/api/Products', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newProduct)
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        const resultDiv = document.getElementById('weather-result');
+        resultDiv.innerHTML = `
+                        <h4>Product Created Successfully:</h4>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                    `;
+        resultDiv.style.display = 'block';
+      } else {
+        throw new Error(`HTTP ${response.status}`);
+      }
+    } catch (error) {
+      const resultDiv = document.getElementById('weather-result');
+      resultDiv.innerHTML = `<p style="color: red;">Error creating product: ${error.message}</p>`;
+      resultDiv.style.display = 'block';
+    }
+  }
+</script>
+</body>
+</html>

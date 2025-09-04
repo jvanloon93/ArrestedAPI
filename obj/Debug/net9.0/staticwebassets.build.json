@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "01js+2P4OWYk7iyg10m3at5fEifsQClZI4BgaUDHJL0=",
+  "Source": "ArrestedAPI",
+  "BasePath": "_content/ArrestedAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ArrestedAPI\\wwwroot",
+      "Source": "ArrestedAPI",
+      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\",
+      "BasePath": "_content/ArrestedAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-f9r7ahc6cu.gz",
+      "SourceId": "ArrestedAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ArrestedAPI",
+      "RelativePath": "index#[.{fingerprint=f9r7ahc6cu}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "egndsxl8go",
+      "Integrity": "Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
+      "SourceId": "ArrestedAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\",
+      "BasePath": "_content/ArrestedAPI",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f9r7ahc6cu",
+      "Integrity": "w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.f9r7ahc6cu.html",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-f9r7ahc6cu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000601322910"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1662"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9r7ahc6cu"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4="
+        }
+      ]
+    },
+    {
+      "Route": "index.f9r7ahc6cu.html",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9r7ahc6cu"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4="
+        }
+      ]
+    },
+    {
+      "Route": "index.f9r7ahc6cu.html.gz",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-f9r7ahc6cu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1662"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f9r7ahc6cu"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-f9r7ahc6cu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000601322910"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1662"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w/OYeyIkH/c34HSchROP/HIYplWkxECVk67/oLUP7p4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-f9r7ahc6cu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1662"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Sep 2025 21:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ajhbt61A9nmJ8W8ZDSTthtr4GWwCkvV+TSnVq0FSebI="
+        }
+      ]
+    }
+  ]
+}
