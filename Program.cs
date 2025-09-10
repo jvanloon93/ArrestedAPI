@@ -1,16 +1,26 @@
+//Written 9/5 by jvanloon
+//By help of Claude AI with some tweaks thereafter
+//Program.cs Creates an WebApplication Builder and adds services
+
+
+//Local variable of the WebApplicationBuilder
+//creates a minimal API
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllers();
+builder.Services.AddControllers(); //configures MVC services
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(); // Allows for creation of Swagger documentation generation. 
 
-// Register our custom services
+// Register our custom service
+// Makes it so the singleton pattern is employed and only one instance of the class can be created throughout the lifetime of the app.
 builder.Services.AddSingleton<ArrestedAPI.Services.IQuotationService, ArrestedAPI.Services.QuotationService>();
 
+//Builds the app
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+// Name is in IWebHostEnvironment
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
