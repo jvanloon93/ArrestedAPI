@@ -4,20 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Arrested API</title>
+  <style>
+    body {background-color: bisque;}
+    .gif-container {
+      text-align: center;
+    }
+    .my-gif {width: auto; height: auto; border: 2px solid black}
+  </style>
 </head>
 <body>
 <div class="container">
   <h1>Tobias Forever</h1>
-  <p>Welcome to my .NET Core API website! This is a simple landing page that demonstrates a web API running on Linux with nginx (or will be one day).</p>
-
+  <p>Welcome to my .NET Core API website! This is a simple landing page that demonstrates a web API running on Linux with nginx.</p>
+  <div class="gif-container">
+      <img src="tobias_funke_GIF.gif" alt="Animated GIF" class="my-gif">    
+  </div>
   <div class="api-section">
     <h3>API Endpoints</h3>
     <div class="api-endpoint">GET /api/Quotation</div>
+    <div class="api-endpoint">GET /api/Quotation/Id</div>
   </div>
-
-  <p style="margin-top: 2rem; font-size: 0.9rem; color: #999;">
-    Built with .NET Core
-  </p>
+  
 </div>
 </body>
 </html>

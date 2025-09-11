@@ -12,4 +12,6 @@ public class Quotation
     public int Episode { get; set; }
     public string Character { get; set; } 
     public string Quote { get; set; }
+    public int? PrevId { get; set; }
+    public int? NextId { get; set; }
 }

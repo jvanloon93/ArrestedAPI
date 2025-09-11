@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\tobias_funke_GIF.gif",
+      "PackagePath": "staticwebassets\\tobias_funke_GIF.gif"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ArrestedAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
