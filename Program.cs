@@ -28,7 +28,7 @@ builder.Services.AddDbContext<ArrestedAPI.Data.ApplicationDBContext>(
 
 // Register our custom service
 // Makes it so the singleton pattern is employed and only one instance of the class can be created throughout the lifetime of the app.
-builder.Services.AddSingleton<ArrestedAPI.Services.IQuotationService, ArrestedAPI.Services.QuotationService>();
+builder.Services.AddScoped<ArrestedAPI.Services.IQuotationService, ArrestedAPI.Services.QuotationService>();
 
 //Builds the app
 var app = builder.Build();

@@ -27,6 +27,13 @@ public class QuotationService : IQuotationService
     //_ means the variable is private
     private readonly List<Quotation> _quotes = new();
     private readonly ApplicationDBContext _context;
+    private readonly ILogger<QuotationService> _logger;
+
+    public QuotationService(ApplicationDBContext context, ILogger<QuotationService> logger)
+    {
+        _context = context ?? throw new ArgumentNullException(nameof(context));
+        _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+    }
  
     //task represents an asynchronos thread that retruns a type <IEnumberable> of Quotation Objects
     public async Task<IEnumerable<Quotation>> GetAllAsync() // just a naming convention, "return everything from this asynchronos thing" 
