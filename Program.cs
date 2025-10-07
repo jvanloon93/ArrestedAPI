@@ -5,12 +5,26 @@
 
 //Local variable of the WebApplicationBuilder
 //creates a minimal API
+
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers(); //configures MVC services
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(); // Allows for creation of Swagger documentation generation. 
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+var serverVersion = new MySqlServerVersion(new Version(8, 4, 6));
+
+builder.Services.AddDbContext<ArrestedAPI.Data.ApplicationDBContext>(
+    options => options.UseMySql(connectionString, serverVersion,
+        mySqlOptions => mySqlOptions.EnableRetryOnFailure(maxRetryCount: 5, maxRetryDelay: TimeSpan.FromSeconds(30),
+            errorNumbersToAdd: null)
+    ));
+    
 
 // Register our custom service
 // Makes it so the singleton pattern is employed and only one instance of the class can be created throughout the lifetime of the app.

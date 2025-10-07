@@ -36,4 +36,9 @@ C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore
 C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\ArrestedAPI.sourcelink.json
-C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\compressed\o0y8qpi8eh-mndamvuhqw.gz
+C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\MySqlConnector.dll
+C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\compressed\o0y8qpi8eh-0f3ccibzro.gz
