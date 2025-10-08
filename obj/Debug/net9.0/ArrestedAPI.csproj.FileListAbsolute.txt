@@ -41,4 +41,4 @@ C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Microsoft.EntityFramew
 C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\MySqlConnector.dll
 C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\compressed\o0y8qpi8eh-0f3ccibzro.gz
+C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\compressed\o0y8qpi8eh-vvp061tbbm.gz

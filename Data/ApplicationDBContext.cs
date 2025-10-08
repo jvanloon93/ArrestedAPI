@@ -20,7 +20,7 @@ public class ApplicationDBContext : DbContext
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Season).HasColumnName("season");
             entity.Property(e => e.Episode).HasColumnName("episode");
-            entity.Property(e => e.Character).HasColumnName("character").HasMaxLength(100);
+            entity.Property(e => e.Character).HasColumnName("character_name").HasMaxLength(100);
             entity.Property(e => e.Quote).HasColumnName("quote").HasMaxLength(1000);
         });
     }
