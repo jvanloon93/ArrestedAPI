@@ -3,6 +3,8 @@
 // Is the date class of quotes served up in the API
 
 // Namespace helps organize, could create a ArrestedAPI.Models.SchoolPlay in the same directory
+
+using System.ComponentModel.DataAnnotations;
 namespace ArrestedAPI.Models;
 
 public class Quotation
@@ -12,6 +14,4 @@ public class Quotation
     public int Episode { get; set; }
     public string Character { get; set; } 
     public string Quote { get; set; }
-    public int? PrevId { get; set; }
-    public int? NextId { get; set; }
 }
