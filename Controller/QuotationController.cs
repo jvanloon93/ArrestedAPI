@@ -41,4 +41,26 @@ public class QuotationController : ControllerBase
         }
         return Ok(quotation);
     }
+
+    [HttpGet("Season/{seasonId}")]
+    public async Task<ActionResult<IEnumerable<Quotation>>> GetSeasonQuotations(int seasonId)
+    {
+        var quotations = await _quotationService.GetBySeasonAsync(seasonId);
+        if (quotations == null)
+        {
+            return NotFound();
+        }
+        return Ok(quotations);
+    }
+
+    [HttpGet("Season/{seasonId}/Episode/{episodeId}")]
+    public async Task<ActionResult<IEnumerable<Quotation>>> GetSeasonQuotations(int seasonId, int episodeId)
+    {
+        var quotations = await _quotationService.GetBySeasonAndEpisodeAsync(seasonId, episodeId);
+        if (quotations == null)
+        {
+            return NotFound();
+        }
+        return Ok(quotations);
+    }
 }
