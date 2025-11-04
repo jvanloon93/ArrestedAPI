@@ -58,6 +58,6 @@ public class QuotationService : IQuotationService
 
     public async Task<IEnumerable<Quotation>> GetBySeasonAndEpisodeAsync(int seasonId, int episodeId)
     {
-        return await _context.Quotes.Where(q => q.Season == seasonId && q.Season == episodeId).ToListAsync();
+        return await _context.Quotes.Where(q => q.Season == seasonId && q.Episode == episodeId).ToListAsync();
     }
 }
