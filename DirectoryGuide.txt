@@ -25,4 +25,19 @@ Application Deployment:
 /var/www/myapiwebsite/      # Your published .NET app goes here
 ├── MyApiWebsite.dll
 ├── wwwroot/
-└── ...
+└── ...     
+
+//Publish Commands
+# Publish your app
+dotnet publish -c Release -o ./publish
+
+# Copy to server directory
+sudo mkdir -p /var/www/arrestedapi
+sudo cp -r ./publish/* /var/www/arrestedapi/
+sudo chown -R www-data:www-data /var/www/arrestedapi
+
+# Install and start the service
+sudo cp arrestedapi.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable arrestedapi.service
+sudo systemctl start arrestedapi.service

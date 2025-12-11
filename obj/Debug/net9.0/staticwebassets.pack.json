@@ -1,32 +1,32 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
+      "Id": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\tobias_funke_GIF.gif",
+      "Id": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\tobias_funke_GIF.gif",
       "PackagePath": "staticwebassets\\tobias_funke_GIF.gif"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ArrestedAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ArrestedApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ArrestedAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ArrestedApi.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ArrestedAPI.props",
-      "PackagePath": "build\\ArrestedAPI.props"
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ArrestedApi.props",
+      "PackagePath": "build\\ArrestedApi.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ArrestedAPI.props",
-      "PackagePath": "buildMultiTargeting\\ArrestedAPI.props"
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ArrestedApi.props",
+      "PackagePath": "buildMultiTargeting\\ArrestedApi.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ArrestedAPI.props",
-      "PackagePath": "buildTransitive\\ArrestedAPI.props"
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ArrestedApi.props",
+      "PackagePath": "buildTransitive\\ArrestedApi.props"
     }
   ],
   "ElementsToRemove": []

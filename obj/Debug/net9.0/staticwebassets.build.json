@@ -1,48 +1,48 @@
 {
   "Version": 1,
-  "Hash": "MXAQVewcAYfaj2nCwwY34BjA+JqtOt49faeMukTdWEM=",
-  "Source": "ArrestedAPI",
-  "BasePath": "_content/ArrestedAPI",
+  "Hash": "tmh1nLk/LR8/kNCAHpHqWc+dSw83HDxJXM7SCTAqiYM=",
+  "Source": "ArrestedApi",
+  "BasePath": "_content/ArrestedApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "ArrestedAPI\\wwwroot",
-      "Source": "ArrestedAPI",
-      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\",
-      "BasePath": "_content/ArrestedAPI",
+      "Name": "ArrestedApi\\wwwroot",
+      "Source": "ArrestedApi",
+      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\",
+      "BasePath": "_content/ArrestedApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-lia5n57lfi.gz",
-      "SourceId": "ArrestedAPI",
+      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\22owuva76o-5xhkmccv4k.gz",
+      "SourceId": "ArrestedApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/ArrestedAPI",
-      "RelativePath": "index#[.{fingerprint=lia5n57lfi}]?.html.gz",
+      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ArrestedApi",
+      "RelativePath": "index#[.{fingerprint=5xhkmccv4k}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
+      "RelatedAsset": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "viz2otnbdu",
-      "Integrity": "V/yZaXNXN3ImkN2yLgpqadvE3ZZMRX+kpZxylgEJmm4=",
+      "Fingerprint": "1i6thcqpa1",
+      "Integrity": "1/itwsbC1SOosohNgam203EOD1838ADNhuxB2jUjzgc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html"
+      "OriginalItemSpec": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
-      "SourceId": "ArrestedAPI",
+      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\index.html",
+      "SourceId": "ArrestedApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\",
-      "BasePath": "_content/ArrestedAPI",
+      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\",
+      "BasePath": "_content/ArrestedApi",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -52,18 +52,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lia5n57lfi",
-      "Integrity": "g+A9JA9/q9u77cCFjUweBNE9SWXEUn81yriWtPGSV5s=",
+      "Fingerprint": "5xhkmccv4k",
+      "Integrity": "R2LrlpytGWWCSgYyJuYHmgvXpsHuhClzmkzaGd5aYSk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\tobias_funke_GIF.gif",
-      "SourceId": "ArrestedAPI",
+      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\tobias_funke_GIF.gif",
+      "SourceId": "ArrestedApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\",
-      "BasePath": "_content/ArrestedAPI",
+      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\",
+      "BasePath": "_content/ArrestedApi",
       "RelativePath": "tobias_funke_GIF#[.{fingerprint}]?.gif",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -82,13 +82,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-lia5n57lfi.gz",
+      "Route": "index.5xhkmccv4k.html",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\22owuva76o-5xhkmccv4k.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001207729469"
+          "Quality": "0.001091703057"
         }
       ],
       "ResponseHeaders": [
@@ -98,152 +98,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "827"
+          "Value": "915"
         },
         {
           "Name": "ETag",
-          "Value": "\"V/yZaXNXN3ImkN2yLgpqadvE3ZZMRX+kpZxylgEJmm4=\""
+          "Value": "\"1/itwsbC1SOosohNgam203EOD1838ADNhuxB2jUjzgc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 16:25:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"g+A9JA9/q9u77cCFjUweBNE9SWXEUn81yriWtPGSV5s=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-g+A9JA9/q9u77cCFjUweBNE9SWXEUn81yriWtPGSV5s="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1687"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"g+A9JA9/q9u77cCFjUweBNE9SWXEUn81yriWtPGSV5s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 16:25:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-g+A9JA9/q9u77cCFjUweBNE9SWXEUn81yriWtPGSV5s="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-lia5n57lfi.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "827"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"V/yZaXNXN3ImkN2yLgpqadvE3ZZMRX+kpZxylgEJmm4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 16:25:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-V/yZaXNXN3ImkN2yLgpqadvE3ZZMRX+kpZxylgEJmm4="
-        }
-      ]
-    },
-    {
-      "Route": "index.lia5n57lfi.html",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-lia5n57lfi.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001207729469"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "827"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"V/yZaXNXN3ImkN2yLgpqadvE3ZZMRX+kpZxylgEJmm4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 16:25:04 GMT"
+          "Value": "Mon, 03 Nov 2025 23:19:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -263,13 +126,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"g+A9JA9/q9u77cCFjUweBNE9SWXEUn81yriWtPGSV5s=\""
+          "Value": "W/\"R2LrlpytGWWCSgYyJuYHmgvXpsHuhClzmkzaGd5aYSk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lia5n57lfi"
+          "Value": "5xhkmccv4k"
         },
         {
           "Name": "label",
@@ -277,13 +140,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-g+A9JA9/q9u77cCFjUweBNE9SWXEUn81yriWtPGSV5s="
+          "Value": "sha256-R2LrlpytGWWCSgYyJuYHmgvXpsHuhClzmkzaGd5aYSk="
         }
       ]
     },
     {
-      "Route": "index.lia5n57lfi.html",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
+      "Route": "index.5xhkmccv4k.html",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -292,7 +155,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1687"
+          "Value": "1875"
         },
         {
           "Name": "Content-Type",
@@ -300,11 +163,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g+A9JA9/q9u77cCFjUweBNE9SWXEUn81yriWtPGSV5s=\""
+          "Value": "\"R2LrlpytGWWCSgYyJuYHmgvXpsHuhClzmkzaGd5aYSk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 16:25:04 GMT"
+          "Value": "Mon, 03 Nov 2025 23:19:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -314,7 +177,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lia5n57lfi"
+          "Value": "5xhkmccv4k"
         },
         {
           "Name": "label",
@@ -322,13 +185,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-g+A9JA9/q9u77cCFjUweBNE9SWXEUn81yriWtPGSV5s="
+          "Value": "sha256-R2LrlpytGWWCSgYyJuYHmgvXpsHuhClzmkzaGd5aYSk="
         }
       ]
     },
     {
-      "Route": "index.lia5n57lfi.html.gz",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-lia5n57lfi.gz",
+      "Route": "index.5xhkmccv4k.html.gz",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\22owuva76o-5xhkmccv4k.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -337,7 +200,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "827"
+          "Value": "915"
         },
         {
           "Name": "Content-Type",
@@ -345,11 +208,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"V/yZaXNXN3ImkN2yLgpqadvE3ZZMRX+kpZxylgEJmm4=\""
+          "Value": "\"1/itwsbC1SOosohNgam203EOD1838ADNhuxB2jUjzgc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 02 Nov 2025 16:25:04 GMT"
+          "Value": "Mon, 03 Nov 2025 23:19:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -367,7 +230,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lia5n57lfi"
+          "Value": "5xhkmccv4k"
         },
         {
           "Name": "label",
@@ -375,13 +238,150 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-V/yZaXNXN3ImkN2yLgpqadvE3ZZMRX+kpZxylgEJmm4="
+          "Value": "sha256-1/itwsbC1SOosohNgam203EOD1838ADNhuxB2jUjzgc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\22owuva76o-5xhkmccv4k.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001091703057"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "915"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1/itwsbC1SOosohNgam203EOD1838ADNhuxB2jUjzgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Nov 2025 23:19:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"R2LrlpytGWWCSgYyJuYHmgvXpsHuhClzmkzaGd5aYSk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R2LrlpytGWWCSgYyJuYHmgvXpsHuhClzmkzaGd5aYSk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R2LrlpytGWWCSgYyJuYHmgvXpsHuhClzmkzaGd5aYSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Nov 2025 23:19:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R2LrlpytGWWCSgYyJuYHmgvXpsHuhClzmkzaGd5aYSk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\22owuva76o-5xhkmccv4k.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1/itwsbC1SOosohNgam203EOD1838ADNhuxB2jUjzgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Nov 2025 23:19:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1/itwsbC1SOosohNgam203EOD1838ADNhuxB2jUjzgc="
         }
       ]
     },
     {
       "Route": "tobias_funke_GIF.6gxw1iatrn.gif",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\tobias_funke_GIF.gif",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\tobias_funke_GIF.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -426,7 +426,7 @@
     },
     {
       "Route": "tobias_funke_GIF.gif",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\tobias_funke_GIF.gif",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\tobias_funke_GIF.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {

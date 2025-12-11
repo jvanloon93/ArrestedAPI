@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\ArrestedAPI.csproj": {}
+    "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\ArrestedApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\ArrestedAPI.csproj": {
+    "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\ArrestedApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\ArrestedAPI.csproj",
-        "projectName": "ArrestedAPI",
-        "projectPath": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\ArrestedAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\ArrestedApi.csproj",
+        "projectName": "ArrestedApi",
+        "projectPath": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\ArrestedApi.csproj",
         "packagesPath": "C:\\Users\\jvanl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\",
+        "outputPath": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jvanl\\AppData\\Roaming\\NuGet\\NuGet.Config"

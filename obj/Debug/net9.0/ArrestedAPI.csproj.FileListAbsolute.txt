@@ -25,7 +25,6 @@ C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\staticwebassets\msbuil
 C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ArrestedAPI.props
 C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ArrestedAPI.props
 C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\Arrested.5104C71C.Up2Date
 C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\ArrestedAPI.dll
 C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\refint\ArrestedAPI.dll
 C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\ArrestedAPI.pdb
@@ -41,4 +40,5 @@ C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Microsoft.EntityFramew
 C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\MySqlConnector.dll
 C:\Users\jvanl\RiderProjects\ArrestedAPI\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\jvanl\RiderProjects\ArrestedAPI\obj\Debug\net9.0\compressed\o0y8qpi8eh-lia5n57lfi.gz
+C:\Users\jvanl\RiderProjects\ArrestedApi\obj\Debug\net9.0\compressed\22owuva76o-5xhkmccv4k.gz
+C:\Users\jvanl\RiderProjects\ArrestedApi\obj\Debug\net9.0\Arrested.8840EE7C.Up2Date

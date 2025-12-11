@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "24UxfbY7dAA=",
+  "dgSpecHash": "G+tmx+m315o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\ArrestedAPI.csproj",
+  "projectFilePath": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\ArrestedApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jvanl\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
     "C:\\Users\\jvanl\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
