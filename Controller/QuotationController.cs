@@ -12,7 +12,7 @@ namespace MyApiWebsite.Controllers;
 //Attribute based routing based directly on Controller Classes
 //Will work off the Controller name: QuotationController >> api/Quotation
 [ApiController]
-[Route("api/[controller]")]
+[Route("/api/[controller]")]
 public class QuotationController : ControllerBase
 {
     //At newing-up, create a service, which also news up static data.
