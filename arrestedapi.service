@@ -1,19 +1,17 @@
 ﻿[Unit]
-Description=Arrested API
+Description=Arrested Development API
 After=network.target
 
 [Service]
-Type=notify
+Type=simple
 ExecStart=/usr/bin/dotnet /var/www/arrestedapi/ArrestedAPI.dll
-Restart=always
-
-RestartSec=5
-KillSignal=SIGINT
-SyslogIdentifier=arrestedapi
-User=www-data
-Environment=ASPNETCORE_ENVIRONMENT=Production
-Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
 WorkingDirectory=/var/www/arrestedapi
+User=www-data
+
+Restart=no
+
+StandardOutput=journal
+StandardError=journal
 
 [Install]
 WantedBy=multi-user.target
