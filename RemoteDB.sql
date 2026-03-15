@@ -1,14 +1,14 @@
 ﻿CREATE DATABASE IF NOT EXISTS arrestedapidb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 -- Create user (change password to something secure)
-CREATE USER IF NOT EXISTS 'arrestedapiuser'@'localhost' IDENTIFIED BY 'your_secure_password';
-CREATE USER IF NOT EXISTS 'arrestedapiuser'@'192.168.1.182' IDENTIFIED BY 'your_secure_password';
-CREATE USER IF NOT EXISTS 'arrestedapiuser'@'192.168.1.183' IDENTIFIED BY 'your_secure_password';
+CREATE USER IF NOT EXISTS 'arrestedapiuser'@'localhost' IDENTIFIED BY 'Igotintocmu23!';
+CREATE USER IF NOT EXISTS 'arrestedapiuser'@'192.168.1.168' IDENTIFIED BY 'Igotintocmu23!';
+CREATE USER IF NOT EXISTS 'arrestedapiuser'@'192.168.1.171' IDENTIFIED BY 'Igotintocmu23!';
 
 -- Grant privileges
 GRANT ALL PRIVILEGES ON arrestedapidb.* TO 'arrestedapiuser'@'localhost';
-GRANT ALL PRIVILEGES ON arrestedapidb.* TO 'arrestedapiuser'@'192.168.1.182';
-GRANT ALL PRIVILEGES ON arrestedapidb.* TO 'arrestedapiuser'@'192.168.1.183';
+GRANT ALL PRIVILEGES ON arrestedapidb.* TO 'arrestedapiuser'@'192.168.1.168';
+GRANT ALL PRIVILEGES ON arrestedapidb.* TO 'arrestedapiuser'@'192.168.1.171';
 
 -- Apply changes
 FLUSH PRIVILEGES;

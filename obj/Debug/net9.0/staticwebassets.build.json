@@ -1,48 +1,48 @@
 {
   "Version": 1,
-  "Hash": "tmh1nLk/LR8/kNCAHpHqWc+dSw83HDxJXM7SCTAqiYM=",
-  "Source": "ArrestedApi",
-  "BasePath": "_content/ArrestedApi",
+  "Hash": "BSajnKU2DZ8LrSLg28f4EGn3fE9+QAxDNEBtes9dP50=",
+  "Source": "ArrestedAPI",
+  "BasePath": "_content/ArrestedAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "ArrestedApi\\wwwroot",
-      "Source": "ArrestedApi",
-      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\",
-      "BasePath": "_content/ArrestedApi",
+      "Name": "ArrestedAPI\\wwwroot",
+      "Source": "ArrestedAPI",
+      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\",
+      "BasePath": "_content/ArrestedAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\22owuva76o-5xhkmccv4k.gz",
-      "SourceId": "ArrestedApi",
+      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-5xhkmccv4k.gz",
+      "SourceId": "ArrestedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/ArrestedApi",
+      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ArrestedAPI",
       "RelativePath": "index#[.{fingerprint=5xhkmccv4k}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\index.html",
+      "RelatedAsset": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "1i6thcqpa1",
       "Integrity": "1/itwsbC1SOosohNgam203EOD1838ADNhuxB2jUjzgc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\index.html"
+      "OriginalItemSpec": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\index.html",
-      "SourceId": "ArrestedApi",
+      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
+      "SourceId": "ArrestedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\",
-      "BasePath": "_content/ArrestedApi",
+      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\",
+      "BasePath": "_content/ArrestedAPI",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -59,11 +59,11 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\tobias_funke_GIF.gif",
-      "SourceId": "ArrestedApi",
+      "Identity": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\tobias_funke_GIF.gif",
+      "SourceId": "ArrestedAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\",
-      "BasePath": "_content/ArrestedApi",
+      "ContentRoot": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\",
+      "BasePath": "_content/ArrestedAPI",
       "RelativePath": "tobias_funke_GIF#[.{fingerprint}]?.gif",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -83,7 +83,7 @@
   "Endpoints": [
     {
       "Route": "index.5xhkmccv4k.html",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\22owuva76o-5xhkmccv4k.gz",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-5xhkmccv4k.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -146,7 +146,7 @@
     },
     {
       "Route": "index.5xhkmccv4k.html",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "Route": "index.5xhkmccv4k.html.gz",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\22owuva76o-5xhkmccv4k.gz",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-5xhkmccv4k.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -244,7 +244,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\22owuva76o-5xhkmccv4k.gz",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-5xhkmccv4k.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -299,7 +299,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -336,7 +336,7 @@
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\obj\\Debug\\net9.0\\compressed\\22owuva76o-5xhkmccv4k.gz",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\obj\\Debug\\net9.0\\compressed\\o0y8qpi8eh-5xhkmccv4k.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -381,7 +381,7 @@
     },
     {
       "Route": "tobias_funke_GIF.6gxw1iatrn.gif",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\tobias_funke_GIF.gif",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\tobias_funke_GIF.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -426,7 +426,7 @@
     },
     {
       "Route": "tobias_funke_GIF.gif",
-      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedApi\\wwwroot\\tobias_funke_GIF.gif",
+      "AssetFile": "C:\\Users\\jvanl\\RiderProjects\\ArrestedAPI\\wwwroot\\tobias_funke_GIF.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {

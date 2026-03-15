@@ -22,6 +22,8 @@ public interface IQuotationService
     Task<IEnumerable<Quotation>> GetBySeasonAsync (int seasonId);
     
     Task<IEnumerable<Quotation>> GetBySeasonAndEpisodeAsync(int seasonId, int episodeId);
+    
+    Task<Quotation?> GetRandomAsync();
 }
 
 //public class name : interface to be implemented
@@ -60,4 +62,14 @@ public class QuotationService : IQuotationService
     {
         return await _context.Quotes.Where(q => q.Season == seasonId && q.Episode == episodeId).ToListAsync();
     }
+
+    public async Task<Quotation?> GetRandomAsync()
+    {
+        var count = await _context.Quotes.CountAsync();
+        if (count == 0) return null;
+
+        var randomIndex = new Random().Next(0, count);
+        return await _context.Quotes.OrderBy(q=> q.Id).Skip(randomIndex).FirstOrDefaultAsync();
+    }
+    
 }

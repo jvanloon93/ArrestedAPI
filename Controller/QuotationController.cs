@@ -31,6 +31,14 @@ public class QuotationController : ControllerBase
         return Ok(quotations);
     }
 
+    [HttpGet("Random")]
+    public async Task<ActionResult<IEnumerable<Quotation>>> GetRandomQuotations()
+    {
+        var quotation = await _quotationService.GetRandomAsync();
+        if (quotation == null) return NotFound();
+        return Ok(quotation);
+    }
+
     [HttpGet("{id}")]
     public async Task<ActionResult<Quotation>> GetProduct(int id)
     {
